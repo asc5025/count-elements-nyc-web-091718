@@ -10,8 +10,10 @@ require 'pry'
 #end
 
 def count_elements(array)
-  count = Hash.new(0)
-  array.each { |item| count[item] += 1 }
-  count
+  count_hash = Hash.new(0)
+  array.each do |item| 
+    count[item] += 1 
+  end
+  count_hash
 end
  
