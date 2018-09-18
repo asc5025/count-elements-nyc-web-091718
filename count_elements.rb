@@ -6,7 +6,7 @@ def count_elements(array)
     if count_hash[:element] == element
       count_hash[:element] += 1
     else
-      count_hash[:element]
+      count_hash << count_hash[:element]
     end
   end
   count_hash
