@@ -5,7 +5,7 @@ def count_elements(array)
   array.each do |element| 
     if count_hash[:element] == element
       count_hash[:element] += 1
-    else
+    elsif count_hash[:element] == nil
       count_hash << count_hash[:element]
     end
   end
