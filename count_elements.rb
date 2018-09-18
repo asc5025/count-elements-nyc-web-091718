@@ -6,7 +6,6 @@ def count_elements(array)
       count_hash << count_hash[:element]
       count_hash[:element] += 1
     end
-  end
   count_hash
 end
  
